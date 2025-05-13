@@ -76,7 +76,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="h-full">
+    <div id="contact" className="h-full">
       <section className="h-full flex flex-col items-center justify-center">
         <div className="container mx-auto px-4 py-12">
           <motion.h2
