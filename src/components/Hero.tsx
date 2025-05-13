@@ -28,7 +28,7 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
                 className="text-2xl md:text-6xl font-bold mb-6 text-white"
               >
-                Hi, I'm Martin Borg 👋
+                Hi, I&apos;m Martin Borg 👋
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-sm md:text-base text-gray-400 mb-12"
               >
-                I'm currently seeking opportunities to apply my skills in
+                I&apos;m currently seeking opportunities to apply my skills in
                 frontend development, create impactful user experiences, and
                 grow as a developer in a collaborative environment.
               </motion.p>
