@@ -62,7 +62,7 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#about" passHref>
+              <Link href="#contact" passHref>
                 <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:after:h-3">
                   <p className="text-white relative font-extrabold z-10 text-sm md:text-base">
                     Contact
