@@ -1,28 +1,20 @@
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import {
   NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,
-  NavigationMenuTrigger,
-  NavigationMenuLink,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-interface NavbarProps {}
-
-export default function Navbar({}: NavbarProps) {
+export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      console.log("Scroll position:", scrollPosition); // Debug log
       setIsScrolled(scrollPosition > 50);
     };
 
-    // Add scroll event listener to window
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     // Initial check
@@ -32,8 +24,6 @@ export default function Navbar({}: NavbarProps) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  console.log("isScrolled:", isScrolled); // Debug log
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">

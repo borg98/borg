@@ -36,8 +36,8 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-lg md:text-2xl text-gray-300 mb-8"
               >
-                A passionate web developer fresh out of school, ready to bring
-                fresh perspectives and modern solutions to your team.
+                I&apos;m a passionate web developer with a keen eye for design
+                and a love for creating seamless user experiences.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export default function Hero() {
                   href="#contact"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors duration-300"
                 >
-                  Let's Connect
+                  Let&apos;s build something amazing together!
                 </a>
               </motion.div>
             </div>

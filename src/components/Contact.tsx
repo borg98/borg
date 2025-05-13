@@ -197,9 +197,9 @@ export default function Contact() {
               <h3 className="text-2xl font-semibold mb-6">Connect with me</h3>
               <div className="space-y-6">
                 <p className="text-gray-300">
-                  Feel free to reach out through any of these platforms. I'm
-                  always open to discussing new projects, creative ideas, or
-                  opportunities to be part of your vision.
+                  Feel free to reach out through any of these platforms.
+                  I&apos;m always open to discussing new projects, creative
+                  ideas, or opportunities to be part of your vision.
                 </p>
                 <div className="flex flex-col gap-4">
                   {socialLinks.map((link) => (
