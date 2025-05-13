@@ -13,13 +13,13 @@ export default function Home() {
         <div className="h-screen snap-start">
           <Hero />
         </div>
-        <div className="min-h-screen snap-start">
+        <div id="skills" className="min-h-screen snap-start">
           <SkillsContent />
         </div>
-        <div className="min-h-screen snap-start">
+        <div id="projects" className="min-h-screen snap-start">
           <Projects />
         </div>
-        <div className="min-h-screen snap-start">
+        <div id="contact" className="min-h-screen snap-start">
           <Contact />
         </div>
       </main>

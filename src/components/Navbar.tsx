@@ -44,7 +44,7 @@ export default function Navbar() {
         <NavigationMenu>
           <NavigationMenuList className="flex gap-4">
             <NavigationMenuItem>
-              <Link href="/" passHref>
+              <Link href="#skills" passHref>
                 <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:after:h-3">
                   <p className="text-white relative font-extrabold z-10 text-sm md:text-base">
                     Skills
@@ -53,7 +53,7 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/" passHref>
+              <Link href="#projects" passHref>
                 <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:after:h-3">
                   <p className="text-white relative font-extrabold z-10 text-sm md:text-base">
                     Projects
@@ -62,10 +62,10 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/" passHref>
+              <Link href="#about" passHref>
                 <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:after:h-3">
                   <p className="text-white relative font-extrabold z-10 text-sm md:text-base">
-                    About Me
+                    Contact
                   </p>
                 </span>
               </Link>
