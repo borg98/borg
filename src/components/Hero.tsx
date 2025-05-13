@@ -58,7 +58,7 @@ export default function Hero() {
                   href="#contact"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors duration-300"
                 >
-                  Let&apos;s build something amazing together!
+                  Let&apos;s get in touch!
                 </a>
               </motion.div>
             </div>
