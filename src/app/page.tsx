@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </main>
       <footer>
-        <p>© 2025 Martin Borg</p>
+        <p className="pl-4">© 2025 Martin Borg</p>
       </footer>
     </>
   );

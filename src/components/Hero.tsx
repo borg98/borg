@@ -36,8 +36,8 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-lg md:text-2xl text-gray-300 mb-8"
               >
-                I&apos;m a passionate web developer with a keen eye for design
-                and a love for creating seamless user experiences.
+                I&apos;m a newly graduated web developer who is eager to learn
+                and grow.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
