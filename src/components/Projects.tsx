@@ -69,7 +69,7 @@ const projects: Project[] = [
       "Storyblok",
     ],
     liveUrl: "https://rts-examensarbete.vercel.app/",
-    githubUrl: "https://github.com/yourusername/rts-webshop",
+    githubUrl: "https://github.com/borg98/rts-examensarbete",
     featured: true,
     collaboration: "solo",
   },
@@ -155,11 +155,10 @@ export default function Projects() {
                         </div>
                       )}
                       <div
-                        className={`px-3 py-1 rounded-full text-sm font-medium ${
-                          project.collaboration === "team"
+                        className={`px-3 py-1 rounded-full text-sm font-medium ${project.collaboration === "team"
                             ? "bg-purple-500 text-white"
                             : "bg-green-500 text-white"
-                        }`}
+                          }`}
                       >
                         {project.collaboration === "team"
                           ? "Team Project"
